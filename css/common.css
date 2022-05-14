@@ -1,0 +1,91 @@
+:root {
+    --primary-text-color: #2196F3;
+    --title-text-color: #212121;
+    --light-text-color: #ffffff;
+    --accent-color: #757575;
+    --primary-bg-color: #2F303A;
+    --additional-bg-color: #f5f4fA;
+}
+
+/* Цвет основного текста #212121 */
+/* вторичний цвет #757575 */
+/* цвет логотипа чорний #000000 */
+/* цвет логотипа синий #2196F3 */
+/* белий #FFFFFF */
+/* белий с прозрачностю color: rgba(255, 255, 255, 0.6); */
+/* цвет фона "героя"  background: #2F303A;*/
+/* цвет фона "наша команда" background: #F5F4FA; */
+
+body {
+    background-color: #ffffff;
+    color: var(--title-text-color);
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+.logo {
+    color: #000000;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--primary-text-color);
+}
+
+.logo-web {
+    color: var(--primary-text-color);
+}
+
+/* site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--primary-text-color)
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--primary-text-color);
+}
+
+/* contact nav */
+.contact-nav .link {
+    color: var(--accent-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--primary-text-color);
+}
+
+
+
+
+/* footer */
+.footer {
+    background-color: var(--primary-bg-color);
+}
+
+.logo-footer {
+    color: var(--light-text-color);
+}
+
+.addres {
+    color: var(--light-text-color);
+}
+
+.contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
