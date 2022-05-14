@@ -1,0 +1,41 @@
+
+/* main */
+.hero {
+    background-color: var(--primary-bg-color);
+    text-align: center;
+}
+.hero-title {
+    color: var(--light-text-color);
+}
+
+/* Button */
+.button {
+    color: var(--light-text-color);
+    background-color: #2196F3;
+    border-color: transparent;
+}
+
+
+ 
+/* section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+
+/* features */
+.features .title {
+    color: var(--title-text-color);
+}
+
+
+/* our team */
+.team {
+    background-color: var(--additional-bg-color);
+}
+.names {
+    color: var(--title-text-color);
+}
+.prefession {
+    color: var(--accent-color);
+}
