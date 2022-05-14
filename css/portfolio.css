@@ -1,0 +1,30 @@
+
+.section {
+
+}
+
+.title {
+    color: var(--title-text-color);
+}
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--additional-bg-color);
+    border-color: transparent;
+}
+.button:hover {
+    color: var(title-text-color);
+    background-color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.list-element h3 {
+    color: var(--title-text-color)
+}
+
+.list-element p {
+    color: var(--accent-color);
+}

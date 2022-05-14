@@ -2,7 +2,6 @@
 /* main */
 .hero {
     background-color: var(--primary-bg-color);
-    text-align: center;
 }
 .hero-title {
     color: var(--light-text-color);
