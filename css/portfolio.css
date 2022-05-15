@@ -27,6 +27,7 @@
 .button:hover {
     color: var(title-text-color);
     background-color: var(--primary-text-color);
+    cursor: pointer;
 }
 
 /* list */
