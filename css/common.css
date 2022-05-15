@@ -22,14 +22,33 @@ body {
     width: 1600px;
     margin: 0 auto;
 
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
-.list {
+.logo.link,
+.logo-footer.link {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.section .list {
     list-style: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .link {
     text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
 
 
@@ -37,10 +56,12 @@ body {
     color: #000000;
 }
 
+/* 
 .logo:hover,
 .logo:focus {
     color: var(--primary-text-color);
-}
+} 
+*/
 
 .logo-web {
     color: var(--primary-text-color);
@@ -76,6 +97,14 @@ body {
 /* footer */
 .footer {
     background-color: var(--primary-bg-color);
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer .list {
+    list-style: none;
 }
 
 .logo-footer {
