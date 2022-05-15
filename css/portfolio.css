@@ -6,14 +6,14 @@
 }
 
 .title {
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
 }
 
 /* button */
 
 .button {
-    color: var(--title-text-color);
-    background-color: var(--additional-bg-color);
+    color: var(--primary-text-color1);
+    background-color: var(--secondary-bg-color);
     border-color: transparent;
 
     font-family: Roboto, sans-serif;
@@ -24,9 +24,10 @@
     letter-spacing: 0.03em;
 
 }
+
 .button:hover {
     color: var(title-text-color);
-    background-color: var(--primary-text-color);
+    background-color: var(--primary-site-color);
     cursor: pointer;
 }
 
@@ -38,7 +39,7 @@
 }
 
 .list-element h2 {
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
 
     font-weight: 700;
     font-size: 18px;
@@ -51,7 +52,7 @@
 }
 
 .list-element p {
-    color: var(--accent-color);
+    color: var(--secondary-text-color);
 
     font-weight: 400;
     font-size: 16px;

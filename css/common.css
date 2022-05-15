@@ -1,24 +1,32 @@
 :root {
-    --primary-text-color: #2196F3;
-    --title-text-color: #212121;
-    --light-text-color: #ffffff;
-    --accent-color: #757575;
+    --primary-white-color: #ffffff;
+    --primary-site-color: #2196F3;
+
+    --logo-primary-color: #ffffff;
+    --logo-secondary-color: #000000;
+
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+
     --primary-bg-color: #2F303A;
-    --additional-bg-color: #f5f4fA;
+    --secondary-bg-color: #f5f4fA;
 }
 
-/* Цвет основного текста #212121 */
-/* вторичний цвет #757575 */
-/* цвет логотипа чорний #000000 */
-/* цвет логотипа синий #2196F3 */
 /* белий #FFFFFF */
-/* белий с прозрачностю color: rgba(255, 255, 255, 0.6); */
-/* цвет фона "героя"  background: #2F303A;*/
-/* цвет фона "наша команда" background: #F5F4FA; */
+/* основной цвет сайта #2196F3 */
+
+/* основной цвет логотипа  #ffffff */
+/* вторичный цвет логотипа #000000 */
+
+/* Цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+
+/* основний цвет фона #2F303A */
+/* вторичный цвет фона #f5f4fA */
 
 body {
-    background-color: #ffffff;
-    color: var(--title-text-color);
+    background-color: var(--logo-white-color);
+    color: var(--primary-text-color1);
     width: 1600px;
     margin: 0 auto;
 
@@ -53,48 +61,48 @@ body {
 
 
 .logo {
-    color: #000000;
+    color: var(--logo-secondary-color);
 }
 
 /* 
 .logo:hover,
 .logo:focus {
-    color: var(--primary-text-color);
+    color: var(--primary-site-color);
 } 
 */
 
 .logo-web {
-    color: var(--primary-text-color);
+    color: var(--primary-site-color);
 }
 
 /* site nav */
+
 .site-nav .link {
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
 }
 
 .site-nav .link.current {
-    color: var(--primary-text-color)
+    color: var(--primary-site-color)
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--primary-text-color);
+    color: var(--primary-site-color);
 }
 
 /* contact nav */
+
 .contact-nav .link {
-    color: var(--accent-color);
+    color: var(--secondary-text-color);
 }
 
 .contact-nav .link:hover,
 .contact-nav .link:focus {
-    color: var(--primary-text-color);
+    color: var(--primary-site-color);
 }
 
-
-
-
 /* footer */
+
 .footer {
     background-color: var(--primary-bg-color);
     
@@ -107,11 +115,11 @@ body {
 }
 
 .logo-footer {
-    color: var(--light-text-color);
+    color: var(--primary-white-color);
 }
 
 .addres {
-    color: var(--light-text-color);
+    color: var(--primary-white-color);
 }
 
 .contacts {
@@ -119,5 +127,5 @@ body {
 }
 .contacts.link:hover,
 .contacts.link:focus {
-    color: var(--primary-text-color);
+    color: var(--primary-site-color);
 }
