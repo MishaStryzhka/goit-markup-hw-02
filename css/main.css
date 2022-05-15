@@ -10,7 +10,6 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -25,12 +24,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
-
-    margin: 0 auto;
 }
 
 .button:hover {
@@ -43,7 +37,6 @@
 /* section */
 
 .section {
-    margin: 94px 215px;
 }
 .section-title {
     color: var(--primary-text-color);
@@ -51,7 +44,6 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
 }
 
 /* features */
@@ -76,13 +68,9 @@
 
 .section-team {
     background-color: var(--secondary-bg-color);
-    height: 400px;
-    padding:94px 215px;
 }
 
 .section-team .list {
-    display: flex;
-    margin: 0;
 }
 
 .names {
@@ -90,13 +78,11 @@
     font-size: 500; 
     font-size: 16px;
     line-height: 1.19;
-    text-align: center; 
 }
 .profession {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
 }
 .section-team li {
     background-color: var(--primary-white-color);
