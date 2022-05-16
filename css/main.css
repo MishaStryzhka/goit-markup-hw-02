@@ -17,8 +17,10 @@
 /* Button */
 
 .button {
-    color: var(--primary-text-color1);
-    background-color: var(--secondary-text-color);
+    cursor: pointer;
+
+    color: var(--primary-white-color);
+    background-color: var(--primary-site-color);
     border-color: transparent;
 
     font-weight: 700;
@@ -27,12 +29,12 @@
     letter-spacing: 0.06em;
 }
 
-.button:hover {
+/* .button:hover {
     cursor: pointer;
 
     color: var(--primary-white-color);
     background-color: var(--primary-site-color);
-}
+} */
 
 /* section */
 
