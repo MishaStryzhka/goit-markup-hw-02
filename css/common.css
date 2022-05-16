@@ -76,6 +76,13 @@ body {
 }
 
 /* site nav */
+.site-nav,
+.contact-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
 
 .site-nav .link {
     color: var(--primary-text-color);
