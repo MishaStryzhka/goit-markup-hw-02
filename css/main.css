@@ -38,8 +38,12 @@
 
 /* section */
 
+/* 
 .section {
-}
+
+}  
+*/
+
 .section-title {
     color: var(--primary-text-color);
 
